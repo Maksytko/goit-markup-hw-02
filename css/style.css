@@ -1,0 +1,36 @@
+:root {
+  --logotype-font: "Raleway", sans-serif;
+  --main-font: "Roboto", sans-serif;
+}
+
+body {
+  font-family: var(--main-font);
+}
+
+/* ===== HEADER ===== */
+/* LOGOTYPE */
+.logotype {
+  font-family: var(--logotype-font);
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.192;
+  letter-spacing: 0.03em;
+  color: #000000;
+  text-decoration: none;
+}
+
+.web-logotype {
+  color: #2196f3;
+}
+/* END LOGO */
+
+/* NAVIGATION LIST*/
+.navigation-list-item {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.143;
+  letter-spacing: 0.02em;
+  color: #212121;
+}
+/* END NAVIGATION LIST*/
+/* ===== END HEADER ===== */
