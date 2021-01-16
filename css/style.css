@@ -163,6 +163,11 @@ body {
   background-color: #2196f3;
 }
 
+.chosen-filters-list-button {
+  color: #ffffff;
+  background-color: #2196f3;
+}
+
 .portfolio-list-title {
   font-weight: 700;
   font-size: 18px;
