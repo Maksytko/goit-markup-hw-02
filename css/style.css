@@ -7,6 +7,10 @@ body {
   font-family: var(--main-font);
 }
 
+a {
+  text-decoration: none;
+}
+
 /* ================== HEADER ================== */
 .navigation-list-link {
   font-weight: 500;
@@ -29,6 +33,7 @@ body {
 .address-tel {
   font-weight: 500;
   font-size: 14px;
+  font-style: normal;
   line-height: 1.143;
   letter-spacing: 0.02em;
   color: #757575;
@@ -92,6 +97,7 @@ body {
   line-height: 1.192;
   letter-spacing: 0.03em;
   color: #000000;
+  text-decoration: none;
 }
 
 .web-logotype {
@@ -105,6 +111,14 @@ body {
   text-align: center;
   letter-spacing: 0.03em;
   color: #212121;
+}
+
+.hidden-markers {
+  list-style-type: none;
+}
+
+.italic {
+  text-decoration: none;
 }
 /* ================== END COMPONENTS ================== */
 
@@ -132,6 +146,7 @@ body {
 .address-footer-address {
   font-weight: 400;
   font-size: 14px;
+  font-style: normal;
   line-height: 1.715;
   letter-spacing: 0.03em;
   color: #ffffff;
@@ -141,6 +156,7 @@ body {
 .address-footer-tel {
   font-weight: 400;
   font-size: 14px;
+  font-style: normal;
   line-height: 1.715;
   letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.6);
