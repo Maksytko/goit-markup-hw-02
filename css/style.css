@@ -114,7 +114,7 @@ a {
 }
 
 .hidden-markers {
-  list-style-type: none;
+  list-style: none;
 }
 
 .italic {
